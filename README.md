@@ -13,7 +13,21 @@ This project demonstrates how Python can be used to automate simple molecular bi
 You simply have to download the .py and fasta files (or get your own fasta files from a database as [NCBI](https://www.ncbi.nlm.nih.gov/)).
 
 ## Usage
-First you'll have to select the file of your gene of interest. Then introduce the mutation type (knock-in or knock-out) as in/out. If case of a knock-in, you'll have to specify if the DNA change is a single-base modification or a whole-gene insertion. In case of a knock-in of a single base, you'll have to introduce the position of the mutation (as a positive integer) and the new base in that position (as a single upper case letter among A/T/C/G). In case of a knock-in of a whole gene, you'll have to select the file of the gene of interest. When finished, you'll have three .txt files saved in the same folder of the .py file with the RNA guide, the DNA mold and the mutated sequence.
+Run the script and select:
+1. The DNA sequence of the gene of interest.
+2. The type of mutation (knock-out or knock-in)
+
+For a knock-in, choose between:
+- Single-base substitution
+  - Enter the mutation position
+  - Specify the new nucleotide (A, T, C or G)
+- Whole-gene insertion
+  - Select the FASTA file containing the DNA sequence to be inserted
+
+Once the analysis is complete, the program generates three output files:
+- guideRNA.txt
+- donorDNA.txt
+- mutated_sequence.txt
 
 ## Example
 Input
