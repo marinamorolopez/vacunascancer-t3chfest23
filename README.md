@@ -1,5 +1,5 @@
 # Cancer vaccine design with Python
-Python tool developed for the T3chFest 2023 talk "Diseño de vacunas contra el cáncer con Python".
+Python tool developed for the T3chFest 2023 talk "Designing cancer vaccines with Python".
 This project demonstrates how Python can be used to automate simple molecular biology workflows by generating CRISPR editing templates from DNA sequences.
 
 ## Features
