@@ -6,7 +6,7 @@ This project demonstrates how Python can be used to automate simple molecular bi
 - Load DNA sequences from FASTA files
 - Simulate knock-in and knock-out mutations
 - Generate guide RNA sequences
-- Generate donor DNA templates
+- Generate mold DNA templates
 - Export mutated DNA sequences automatically
 
 ## Installation
@@ -25,23 +25,23 @@ For a knock-in, choose between:
   - Select the FASTA file containing the DNA sequence to be inserted
 
 Once the analysis is complete, the program generates three output files:
-- guideRNA.txt
-- donorDNA.txt
-- mutated_sequence.txt
+- GUIDE.txt (RNA guide sequence)
+- MOLD.txt (DNA mold sequence)
+- MUTATED_SEQUENCE.txt (modified sequence)
 
 ## Example
 Input
 ```
-Gene: TP53
+Gene: E1
 Mutation: Knock-in
-Position: 125
-Base: A
+Position: 2021
+Base: T
 ```
 Output
 ```
-guideRNA.txt
-donorDNA.txt
-mutated_sequence.txt
+GUIDE.txt
+MOLD.txt
+MUTATED_SEQUENCE.txt
 ```
 
 ## Contributing
